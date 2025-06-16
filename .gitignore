@@ -1,0 +1,83 @@
+﻿############################################
+# .NET build artifacts 
+############################################
+bin/
+obj/
+*.dll
+*.exe
+*.app
+*.so
+*.dylib
+*.pdb
+*.cache
+*.mdb
+
+############################################
+# Rider / JetBrains IDE
+############################################
+.idea/                # Rider project metadata
+*.sln.iml             # Rider’s solution file
+.idea_modules/        # Legacy modules dir
+
+############################################
+# Visual Studio
+############################################
+.vs/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+############################################
+# NuGet
+############################################
+*.nupkg
+*.snupkg
+packages/
+.nuget/
+
+############################################
+# Logs / diagnostics
+############################################
+*.log
+*.tlog
+*.etl
+*.svclog
+TestResult*/          # MSTest / VSTest results
+coverage*/            # Coverlet, dotCover, etc.
+
+############################################
+# OS noise
+############################################
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+# Linux
+*~
+
+############################################
+# Secrets & environment-specific settings
+############################################
+# Keep a sample like appsettings.Template.json in repo;
+# copy it locally to appsettings.json and fill in secrets.
+appsettings.json
+appsettings.*.json
+secrets.json
+*.env
+
+############################################
+# Misc tools
+############################################
+# dotnet-user-secrets
+*.db
+*.sqlite
+
+############################################
+# Rider IIS Express SSL certs (if you use them)
+############################################
+iisexpress/
