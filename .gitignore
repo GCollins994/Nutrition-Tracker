@@ -15,9 +15,9 @@ obj/
 ############################################
 # Rider / JetBrains IDE
 ############################################
-.idea/                # Rider project metadata
-*.sln.iml             # Rider’s solution file
-.idea_modules/        # Legacy modules dir
+.idea/
+*.sln.iml
+.idea_modules/
 
 ############################################
 # Visual Studio
