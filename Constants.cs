@@ -18,3 +18,4 @@ public class CacheKeys
     public const string FoodSearchCachePrefix = "FoodSearch_";
     public const string NutritionValuesCachePrefix = "NutritionValues_";
 }
+

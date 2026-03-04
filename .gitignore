@@ -81,3 +81,6 @@ secrets.json
 # Rider IIS Express SSL certs (if you use them)
 ############################################
 iisexpress/
+Logs/
+
+TODOs.md
